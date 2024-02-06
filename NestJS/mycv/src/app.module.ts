@@ -27,15 +27,6 @@ const cookieSession = require('cookie-session');
         };
       },
     }),
-    // TypeOrmModule.forRoot({
-    //   type: 'sqlite',
-    //   database: 'db.sqlite',
-    //   entities: [User, Report],
-    //   synchronize: true,
-    // }),
-
-    // useFactory:(config:ConfigService)=> {type:'sqlite',database: config.get<string>('DB_NAME'), synchronize:true,
-    // entities: [User, Report],}
     UsersModule,
     ReportsModule,
   ],
